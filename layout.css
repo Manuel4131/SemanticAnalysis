@@ -1,0 +1,198 @@
+#mainControll > textarea{
+	position: absolute;
+	top: 10%;
+	left: 15%;
+	width: 35%;
+	height: 30%;
+}
+
+#analyzeBtn{
+	position: absolute;
+	top: 43%;
+	left: 45%;
+}
+
+#drawChartBtn{
+	position: absolute;
+	top: 43%;
+}
+
+#cvs{
+	position: absolute;
+	top: 70%;
+	left:10%;
+}
+
+/*
+#emotion1{
+	position: absolute;
+	left: 53%;
+	top: 10%;
+}
+
+#emotionText1{
+	position: absolute;
+	left: 0%;
+	top: 100%;	
+}
+*/
+#testColor{
+background-color: #FFFFFF;
+
+}
+
+#affection_friendliness{
+	position: absolute;
+	top: 3%;
+	left: 55%;
+	width: 10%;
+	height: 3%;
+	background-color: #FF66FF;
+}
+
+#text01{
+	position: absolute;	
+	top: 3%;
+	left: 67%;
+	width: 10%;
+	height: 5%;
+}
+
+#amusement_excitement{
+	position: absolute;
+	top: 7%;
+	left: 55%;
+	width: 10%;
+	height: 3%;
+	background-color: #CC00CC;
+}
+
+#text02{
+	position: absolute;	
+	top: 7%;
+	left: 67%;
+	width: 10%;
+	height: 5%;
+}
+
+#anger_loathing{
+	position: absolute;
+	top: 11%;
+	left: 55%;
+	width: 10%;
+	height: 3%;
+	background-color: #FF0000;
+}
+
+#text03{
+	position: absolute;	
+	top: 11%;
+	left: 67%;
+	width: 10%;
+	height: 5%;
+}
+
+#contentment_gratitude{
+	position: absolute;
+	top: 15%;
+	left: 55%;
+	width: 10%;
+	height: 3%;
+	background-color: #800000;
+}
+
+#text04{
+	position: absolute;	
+	top: 15%;
+	left: 67%;
+	width: 10%;
+	height: 5%;
+}
+
+#enjoyment_elation{
+	position: absolute;
+	top: 19%;
+	left: 55%;
+	width: 10%;
+	height: 3%;
+	background-color: #FFFF00;
+}
+
+#text05{
+	position: absolute;	
+	top: 19%;
+	left: 67%;
+	width: 10%;
+	height: 5%;
+}
+
+#fear_uneasiness{
+	position: absolute;
+	top: 23%;
+	left: 55%;
+	width: 10%;
+	height: 3%;
+	background-color: #000000;
+}
+
+#text06{
+	position: absolute;	
+	top: 23%;
+	left: 67%;
+	width: 10%;
+	height: 5%;
+}
+
+#humiliation_shame{
+	position: absolute;
+	top: 27%;
+	left: 55%;
+	width: 10%;
+	height: 3%;
+	background-color: #FF8585;
+}
+
+#text07{
+	position: absolute;	
+	top: 27%;
+	left: 67%;
+	width: 10%;
+	height: 5%;
+}
+
+#sadness_grief{
+	position: absolute;
+	top: 31%;
+	left: 55%;
+	width: 10%;
+	height: 3%;
+	background-color: #3399FF;
+}
+
+#text08{
+	position: absolute;	
+	top: 31%;
+	left: 67%;
+	width: 10%;
+	height: 5%;
+}
+
+
+/*
+#enjoyment_elation{
+	position: absolute;
+	top: 10%;
+	left: 55%;
+	width: 10%;
+	height: 3%;
+	background-color: #FFFF00;
+}
+
+#text01{
+	position: absolute;	
+	top: 10%;
+	left: 67%;
+	width: 20%;
+	height: 5%;
+}
+*/

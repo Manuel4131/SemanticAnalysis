@@ -2,10 +2,79 @@
 <html>
 <head>
 	<meta charset= "utf-8">
-	<script type="text/javascript" src= "jquery.lymbix.js"></script>
+	<script type="text/javascript" src= "jquery-2.0.3.min.js"></script>
+	<!--<script type="text/javascript" src= "jquery-1.8.3.min.js"></script>-->
 	
+	<script type="text/javascript" src= "jquery.lymbix.js"></script>
+	<script type="text/javascript" src= "analyze.js"></script>
+	<link rel="stylesheet" type="text/css" href="layout.css">
+
+	<!-- rGraph -->
+	<link rel="stylesheet" href="Rgraph/demos/demos.css">
+	<script type="text/javascript" src="Rgraph/libraries/RGraph.common.core.js"></script>
+	<script type="text/javascript" src="Rgraph/libraries/RGraph.bar.js"></script>
+	<script type="text/javascript" src="Rgraph/libraries/RGraph.line.js"></script>
 
 </head>
+
+
+
 <body>
+
+<div id="mainControll">
+	<textarea id="article">Write your article here.</textarea>
+</div>
+
+<div id="btnArea">
+	<input id ="analyzeBtn" type="button" value= " Analyze ">
+	<input id ="drawChartBtn" type="button" value= " Draw Chart ">
+</div>
+
+
+<canvas id="cvs" width="1000" height="350">[No canvas support]</canvas>
+
+<div id="emotionBar">
+
+	<div id="affection_friendliness"></div>
+	<a id="text01">affection_friendliness</a>
+
+	<div id="amusement_excitement"></div>
+	<a id="text02">amusement_excitement</a>
+
+	<div id="anger_loathing"></div>
+	<a id="text03">anger_loathing</a>	
+
+	<div id="contentment_gratitude"></div>
+	<a id="text04">contentment_gratitude</a>	
+
+	<div id="enjoyment_elation"></div>
+	<a id="text05">enjoyment_elation</a>
+
+	<div id="fear_uneasiness"></div>
+	<a id="text06">fear_uneasiness</a>
+	
+	<div id="humiliation_shame"></div>
+	<a id="text07">humiliation_shame</a>
+	
+	<div id="sadness_grief"></div>
+	<a id="text08">sadness_grief</a>
+	
+	
+
+
+</div>
+
+<!--
+<form>
+	<label id="emotion1" for="enjoymentElation"> Enjoyment and elation</elation>
+	<input id="emotionText1" type="text">
+
+	<label id="emotion2" for="contentmentGratitude"> Enjoyment and elation</elation>
+	<input id="emotionText1" type="text">
+</form>
+-->
+<!-- Test -->
+<div id="testColor"></div>
+
 </body>
 </html>

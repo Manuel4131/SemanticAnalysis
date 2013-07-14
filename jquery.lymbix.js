@@ -5,7 +5,8 @@
   */
   $.lymbix = function (authenticationKey) {
   
-    var API_BASE = 'https://gyrus.lymbix.com/';
+    //var API_BASE = 'https://gyrus.lymbix.com/';//It's fucking old and useless 7/11/2013
+    var API_BASE = 'http://api.lymbix.com/';
     var TONALIZE_MULTIPLE = 'tonalize_multiple';
     var TONALIZE_DETAILED = 'tonalize_detailed';
     var TONALIZE = 'tonalize';
@@ -19,8 +20,8 @@
     
     var getHeaders = function () {
       var headers = {
-        authentication: authenticationKey,
-        accept: 'application/json',
+        authentication: authenticationKey
+,        accept: 'application/json',
         version: '2.2'
       };
       return headers;
